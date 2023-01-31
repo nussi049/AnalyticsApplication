@@ -10,6 +10,7 @@ To Reproduce:
 1. data_preparation Notebook
 2. plot_data Notebook
 3. prediction_model Notebook
+4. cluster_analysis Notebook
 
 Note:
 -----
@@ -18,3 +19,5 @@ The data folder must contain the following two csv_files with the bike rental da
 2. weather_hourly_sf
 
 These files where to large for the Github upload.
+
+The geoloacations of the stations are gathered with the Google Maps API. Some of the locations were not recognized and thus the locations needed to be cleaned. The cleaned data is in the geo_data_cleaned.csv, which is used for the geodata plots and cluster analysis.
