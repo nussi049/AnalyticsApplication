@@ -5,12 +5,13 @@ To Reproduce:
 -------------
 - Clone this repository
 
-- Execute the following notebooks in this order, because the data_preparation Notebook is the foundation of both plot_data and prediction_model Notebook.
+- Execute the following notebooks in this order, because the data_preparation Notebook is the foundation of plot_data, KPI and prediction_model Notebook.
 
 1. data_preparation Notebook
 2. plot_data Notebook
-3. prediction_model Notebook
-4. cluster_analysis Notebook
+3. KPI Notebook
+4. prediction_model Notebook
+5. cluster_analysis Notebook
 
 Note:
 -----
